@@ -1,0 +1,275 @@
+body{
+	background-color:white;
+	overflow-x: hidden;
+	/*body of welcome page*/
+} 
+
+
+#menubar h1{
+
+	color:goldenrod;
+	top: 15%;
+	left: 12px;
+
+	position: absolute;
+
+	bottom: 0;
+	font-size: 25px;
+	font-family: 'Rokkitt', serif;
+	/*website name (left top)*/
+}
+#menubar ul{
+	display:flex;
+	float:right;
+	padding-right:10px ;
+	/*list spacing */
+
+
+}
+#menubar li{
+	list-style:none;
+	/*list style for pages*/
+}
+#menubar a{
+
+	color:white;
+	padding: 0 20px;
+	text-decoration:none;
+	text-transform:none;
+
+	line-height: 68px;
+	font-size: 19px;
+	font-family: 'Rokkitt', serif;
+	/*webpages links*/
+
+}
+#menubar a:hover{
+	transition-duration: 3s;
+	text-decoration: underline;
+	/*underlines the linked webpages*/
+
+}
+#menubar nav{
+	width:100%;
+	height:90px;
+	background: rgba(0,0,0,1);
+	border-bottom: 1px solid rgba(255,255,255,.2);
+	border-top: 1px solid rgba(255,255,255,.2);
+	position:fixed;
+	top:0px;
+	left: 0px;
+	/*nav bar qualities*/
+}
+#heading h1{
+	position: absolute;
+	left:580px;
+	top: 142px;
+	font-size: 120px;
+	/*title in the middle of page*/
+
+}
+#heading h3{
+	position: absolute;
+	left:320px;
+	top: 342px;
+	font-size: 20px;
+	/*motto*/
+
+}
+#heading{
+	border: 1px solid #e2de5a;
+	width: 100vw;
+	height: 400px;
+
+	background-color: #e2de5a;
+	background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+	/* texture backr=ground from https://www.transparenttextures.com/ */
+	color: white;
+
+
+	left: 0px;
+	position: absolute;
+	top: 92px;
+	font-family: 'Rokkitt', serif;
+	z-index: -1;
+
+
+} /*background for title plus motto*/
+
+#whale img{
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	/*image of whale*/
+}
+
+#whale{
+	color: transparent;
+	transition-duration: 1s;
+	width: 250px;
+	font-family: 'Rokkitt', serif;
+	font-size: 20px;
+	/*qualities of text*/
+}
+
+#whale ul{
+	position: absolute;
+	top: 95px;
+	border: 1px solid transparent;
+	width: 290px;
+	/*facts plus title*/
+}
+#whale:hover{
+	color:black;
+	opacity: .9;
+
+	transition-duration: 1s;
+	/*changes opacity plus pops up text */
+}
+
+#gorilla img{
+	position: absolute;
+	top: 80px;
+	left: 600px;
+	/*image of gorilla*/
+}
+#gorilla{
+	color: transparent;
+	transition-duration: 1s;
+	width: 250px;
+	font-family: 'Rokkitt', serif;
+	font-size: 20px;
+	/*qualities of text*/
+}
+#gorilla ul{
+	position: absolute;
+	top: 90px;
+	left: 650px;
+	border: 1px solid transparent;
+	width: 290px;
+	/*facts plus title*/
+}
+#gorilla:hover{
+	color:white;
+	opacity: .7;
+	/*changes opacity plus pops up text */
+}
+#lbis img{
+	position: absolute;
+	top: 90px;
+	left: 1160px;
+	/*image of lbis*/
+}
+#lbis{
+	color: transparent;
+	transition-duration: 1s;
+	width: 250px;
+	font-family: 'Rokkitt', serif;
+	font-size: 20px;
+	/*qualities of text*/
+}
+#lbis ul{
+	position: absolute;
+	top: 90px;
+	border: 1px solid transparent;
+	width: 290px;
+	left: 1180px;
+	/*facts plus title*/
+}
+#lbis:hover{
+	color:red;
+	opacity: .7;
+
+	transition-duration: 1s;
+	/*changes opacity plus pops up text */
+}
+#background{
+	background-color:cadetblue;
+	opacity: .8;
+	top: 494px;
+	left:0;
+	border: 1px solid transparent;
+	width: 100vw;
+	height: 550px;
+	position: absolute;
+	/*background for images*/
+}
+#goal h2{
+	position: absolute;
+	top: 1190px;
+	font-size: 50px;
+	border:5px solid black;
+	border-radius: 100px;
+	width: 610px;
+	text-align: center;
+	transition-duration: 1s;
+	/*title for goal*/
+
+}
+#goal h2:hover{
+	background-color: black;
+	color: white;
+	transition-duration: 1s;
+	/*allows text and background to invert*/
+}
+#goal p{
+
+	position: absolute;
+	top: 1380px;
+	font-size: 15px;
+	left: 10px;.
+	height:700px;
+	word-wrap: break-word;
+	border: 5px solid transparent;
+	width: 990px;
+
+	font-size: 20px;
+	font-family: 'Rokkitt', serif;
+	/*text that connects to title above it*/
+
+}
+
+#shark img{
+	position: absolute;
+	left:930px;
+	top: 1050px;
+	position: absolute;
+	z-index: -1;
+	transition: 1s;
+	/*shark image*/
+}
+#shark img:hover{
+	transform: rotate(-5deg);
+	transition: 1s;
+	/*allows shark to rotate*/
+}
+div.silosilo{
+	
+    animation: move 5s linear infinite;
+	position: relative;
+	bottom: 0px;
+	height: 50px;
+    
+} /* The div where the fish is*/
+
+@keyframes move{
+    0%{
+        transform:translate(2000px);
+    }
+    
+    100%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(-500px);
+    }
+}
+
+
+
+
+
+
+
+
+

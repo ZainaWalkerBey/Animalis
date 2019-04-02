@@ -1,0 +1,342 @@
+body{
+background-color: #1f2021;
+background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+	/* texture backr=ground from https://www.transparenttextures.com/ */
+	/*body of welcome page*/
+}
+#menubar h1{
+
+	color:goldenrod;
+	top: 15%;
+
+left: 12px;
+	position: absolute;
+
+	bottom: 0;
+	font-size: 25px;
+	font-family: 'Rokkitt', serif;
+	/*website name (left top)*/
+}
+
+#menubar ul{
+	display:flex;
+	float:right;
+	padding-right:10px ;
+	/*list spacing */
+
+}
+#menubar li{
+	list-style:none;
+	/*list style for pages*/
+}
+#menubar a{
+
+	color:white;
+	padding: 0 20px;
+	text-decoration:none;
+	text-transform:none;
+
+	line-height: 68px;
+	font-size: 19px;
+	font-family: 'Rokkitt', serif;
+	/*webpages links*/
+
+}
+#menubar a:hover{
+	transition-duration: 3s;
+	text-decoration: underline;
+	/*underlines the linked webpages*/
+}
+#menubar nav{
+	width:100%;
+	height:90px;
+	background: rgba(0,0,0,1);
+	border-bottom: 1px solid rgba(255,255,255,.2);
+	border-top: 1px solid rgba(255,255,255,.2);
+	position:fixed;
+	top:0px;
+	left: 0px;
+	/*nav bar qualities*/
+}
+
+#divider{
+	border: 1px solid goldenrod;
+	width: 1566px;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	
+	height: 700px;
+}
+/*golden divider*/
+#heading h1{
+	color: black;
+	position: absolute;
+	top: 150px;
+	left: 510px;
+	text-transform: uppercase;
+	color: white;
+	font-size: 70px;
+	z-index: -1;
+	text-decoration:underline;
+	text-decoration-color: goldenrod
+	/*title in the middle of page*/
+}
+#heading h2{
+	position: absolute;
+	top: 270px;
+	left: 380px;
+	border: 1px solid transparent;
+	width: 900px;
+	color: white;
+	z-index: -1;
+	font-size: 20px;
+	/*mini description*/
+}
+#panda img{
+	position: absolute;
+	left:390px;
+	top:390px;
+	z-index: 0;
+	width: 200px;
+	height:200px;
+	z-index: -1;
+	/*panda image*/
+}
+
+
+
+
+#tiger img{
+	position: absolute;
+	left:690px;
+	top:390px;
+	z-index: -1;
+	/*tiger image*/
+}
+#titan img{
+	position: absolute;
+	left:990px;
+	top:390px;
+	z-index: -1;
+	/*titanboa image*/
+}
+#panda h2{
+	position: absolute;
+	left:450px;
+	top:590px;
+	z-index: -1;
+	color: white;
+	/*name of above image*/
+}
+#tiger h2{
+	position: absolute;
+	left:770px;
+	top:590px;
+	z-index: -1;
+	color: white;
+	/*name of above image*/
+}
+#titan h2{
+	
+	position: absolute;
+	left:1040px;
+	top:590px;
+	z-index: -1;
+	color: white;
+	/*name of above image*/
+}
+#pandainfo img{
+	position: absolute;
+	left:10px;
+	position: inherit;
+	transition-duration: 1s;
+	/*larger image of panda*/
+	
+}
+#pandainfo img:hover{
+	cursor: pointer;
+	width: 650px;
+	height:650px;
+	transition-duration: 1s;
+	
+	opacity: .5;
+	/*enlargens image of panda*/
+}
+#pandainfo h2{
+	font-size: 4em;
+	z-index: -1;
+	/*title of left image*/
+}
+
+#pandainfo li{
+	font-size: 20px;
+	z-index: -1;
+	/*lisited information*/
+}
+
+#pandainfo ul{
+	position: absolute;
+	list-style:circle;
+	left:990px;
+	top: 750px;
+	color: white;
+	z-index: -1;
+	/* whole lisited information*/
+}
+#pandainfo iframe{
+	position: absolute;
+	left:990px;
+	top: 1080px;
+	z-index: -1;
+	/*panda video*/
+	
+}
+#divider2{
+	border: 1px solid goldenrod;
+	width: 1566px;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	transition-duration: 1s;
+	height: 700px;
+	width: 100vw;
+	/*2nd gold divider*/
+}
+
+#divider2:hover{
+	background-color:deepskyblue;
+	opacity: .5;
+	transition-duration: 1s;
+	/*changes color of background for panda*/
+}
+
+#tigerinfo img{
+	position: inherit;
+	left:10px;
+	top:1500px;	
+	transition-duration: 1s;
+	/*enlarged image of tiger*/
+}
+
+#tigerinfo img:hover{
+	cursor: pointer;
+	width: 650px;
+	height:650px;
+	transition-duration: 1s;
+	opacity: .5;
+	/*enlargens image of tiger*/
+}
+#tigerinfo h2{
+	font-size: 4em;
+	z-index: -1;
+	/*title of left image*/
+}
+
+#tigerinfo li{
+	font-size: 20px;
+	/*lisited information*/
+}
+
+#tigerinfo ul{
+	position: absolute;
+	list-style:circle;
+	left:990px;
+	top: 1450px;
+	color: white;
+	z-index: -1;
+	/* whole lisited information*/
+}
+
+#tigerinfo iframe{
+	position: absolute;
+	left:990px;
+	top: 1780px;
+	z-index: -1;
+	/*tiger video*/
+}  
+
+#divider3{
+	border: 1px solid goldenrod;
+	width: 1566px;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	transition-duration: 1s;
+	height: 700px;
+	width: 100vw;
+	/*3rd gold divider*/
+}
+
+#divider3:hover{
+	background-color:green;
+	opacity: .5;
+	transition-duration: 1s;
+	/*changes color of background for tiger*/
+
+}
+
+#titaninfo img{
+	position: inherit;
+	left:10px;
+	top:2220px;
+	transition-duration: 1s;
+	/*enlarged image of tiger*/
+	
+}
+
+#titaninfo img:hover{
+	cursor: pointer;
+	width: 650px;
+	height:650px;
+	transition-duration: 1s;
+	
+	opacity: .5;
+	/*enlargens image of tiger*/
+}
+#titaninfo h2{
+	font-size: 4em;
+	z-index: -1;
+	/*title of left image*/
+}
+
+#titaninfo li{
+	font-size: 20px;
+	z-index: -1;
+	/*lisited information*/
+}
+
+#titaninfo ul{
+	position: absolute;
+	list-style:circle;
+	left:990px;
+	top: 2150px;
+	color: white;
+	/* whole lisited information*/
+}
+
+#titaninfo iframe{
+	position: absolute;
+	left:990px;
+	top: 2480px;
+	/*titanboa video*/
+}
+
+#divider4{
+	border: 1px solid goldenrod;
+	width: 1566px;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	transition-duration: 1s;
+	height: 700px;
+	width: 100vw;
+	/*4th gold divider*/
+}
+
+#divider4:hover{
+	background-color:hotpink;
+	opacity: .5;
+	transition-duration: 1s;
+	/*changes color of background for snake*/
+	
+}
+
+
+
