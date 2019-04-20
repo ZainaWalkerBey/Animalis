@@ -61,8 +61,8 @@ body{
 	/*nav bar qualities*/
 }
 #heading h1{
-	position: absolute;
-	left:580px;
+	position: relative;
+	left:780px;
 	top: 142px;
 	font-size: 120px;
 	/*title in the middle of page*/
