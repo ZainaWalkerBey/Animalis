@@ -7,29 +7,40 @@ background-image: url("https://www.transparenttextures.com/patterns/black-thread
 /* texture backr=ground from https://www.transparenttextures.com/ */
 	/*body of air page*/
 }
- 
-h1{
+
+
+
+
+
+
+
+
+
+
+#menubar h1{
 
 	color:goldenrod;
 	top: 15%;
-left: 12px;
+	left: 12px;
 
 	position: absolute;
 
 	bottom: 0;
 	font-size: 25px;
 	font-family: 'Rokkitt', serif;
-
+	/*website name (left top)*/
 }
 #menubar ul{
 	display:flex;
 	float:right;
 	padding-right:10px ;
-	
+	/*list spacing */
+
 
 }
 #menubar li{
 	list-style:none;
+	/*list style for pages*/
 }
 #menubar a{
 
@@ -41,11 +52,13 @@ left: 12px;
 	line-height: 68px;
 	font-size: 19px;
 	font-family: 'Rokkitt', serif;
+	/*webpages links*/
 
 }
 #menubar a:hover{
 	transition-duration: 3s;
 	text-decoration: underline;
+	/*underlines the linked webpages*/
 
 }
 #menubar nav{
@@ -57,9 +70,9 @@ left: 12px;
 	position:fixed;
 	top:0px;
 	left: 0px;
+	z-index: 99;
+	/*nav bar qualities*/
 }
-
-
 
 
 
@@ -125,7 +138,7 @@ top:1300px;
 
 }
 #eagle{
-	
+	color:transparent;
 	transition-duration: 1s;
 	width: 50px;
 }
@@ -147,7 +160,7 @@ top:1300px;
 
 	top: -290px;
 	left: 400px;
-	color: firebrick;
+	color: aqua;
 	position:absolute;
 	z-index: -1;
 	text-align: center;
@@ -164,17 +177,7 @@ top:1300px;
 	font-family: 'Rokkitt', serif;
 }
 
-#eagle p:hover{
-	transition-duration: 1s;
-	border-right-color: blue;
-	border-bottom-color: blue;
-	content: "79","purple";
-	background-color: white;
-	color: black;
-	border-right-width: 3px;
-	border-bottom-width: 3px;
 
-}
 
 #catcher img{
 	position: absolute;
@@ -226,7 +229,7 @@ left: 590px;
 
 	top: 1038px;
 	left: 990px;
-	color: yellow;
+	color: aqua;
 	position:absolute;
 	z-index: -1;
 	text-align: center;
@@ -243,17 +246,7 @@ left: 590px;
 	font-family: 'Rokkitt', serif;
 }
 
-#catcher p:hover{
-	transition-duration: 1s;
-	border-right-color: blue;
-	border-bottom-color: blue;
-	content: "79","purple";
-	background-color: white;
-	color: black;
-	border-right-width: 3px;
-	border-bottom-width: 3px;
 
-}
 #crane img{
 	position: absolute;
 	top: 1090px;
@@ -320,17 +313,7 @@ left: 1190px;
 	font-family: 'Rokkitt', serif;
 }
 
-#crane p:hover{
-	transition-duration: 1s;
-	border-right-color: blue;
-	border-bottom-color: blue;
-	content: "79","purple";
-	background-color: white;
-	color: black;
-	border-right-width: 3px;
-	border-bottom-width: 3px;
 
-}
 
 
 #parrot img{
@@ -338,6 +321,7 @@ left: 1190px;
 	top: 550px;
 	left: -290px;
 	z-index: -1;
+	width: 
 	
 }
 
@@ -347,14 +331,17 @@ top:2px;
 font-size: 30px;
 font-family: 'Rokkitt', serif;
 	color: pink;
+	z-index: -1;
 
 }
 
 #parrot ul{
 position: absolute;
 top:590px;
-width: 450px;
+width: 200px;
+height: 100px;	
 left: 20px;
+z-index: -1;
 font-size: 30px;
 	
 
@@ -362,7 +349,9 @@ font-size: 30px;
 #parrot{
 	color: transparent;
 	transition-duration: 1s;
-	width: 50px;
+	width: 0px;
+	z-index: -1;
+	height: 0px;
 	
 }
 #parrot:hover{
@@ -372,11 +361,13 @@ font-size: 30px;
 	font-size: 30px;
 	transition-duration: 1s;
 	cursor: pointer;
+	z-index: -1;
 }
 #parrot li{
 	
 	font-family: 'Rokkitt', serif;
 	font-size: 20px;
+	z-index: -1;
 	
 }
 
@@ -401,17 +392,7 @@ font-size: 30px;
 	font-family: 'Rokkitt', serif;
 }
 
-#parrot p:hover{
-	transition-duration: 1s;
-	border-right-color: blue;
-	border-bottom-color: blue;
-	content: "79","purple";
-	background-color: white;
-	color: black;
-	border-right-width: 3px;
-	border-bottom-width: 3px;
 
-}
 
 
 #hawiian img{
@@ -480,17 +461,7 @@ left: 520px;
 	font-family: 'Rokkitt', serif;
 }
 
-#hawiian p:hover{
-	transition-duration: 1s;
-	border-right-color: blue;
-	border-bottom-color: blue;
-	content: "79","purple";
-	background-color: white;
-	color: black;
-	border-right-width: 3px;
-	border-bottom-width: 3px;
 
-}
 
 #spix img{
 	position: absolute;
@@ -557,22 +528,3 @@ font-size: 30px;
 	border-radius: 50%;
 	font-family: 'Rokkitt', serif;
 }
-
-#spix p:hover{
-	transition-duration: 1s;
-	border-right-color: blue;
-	border-bottom-color: blue;
-	content: "79","purple";
-	background-color: white;
-	color: black;
-	border-right-width: 3px;
-	border-bottom-width: 3px;
-
-}
-
-
-
-
-
-
-
