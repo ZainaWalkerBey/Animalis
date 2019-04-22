@@ -58,20 +58,21 @@ body{
 	position:fixed;
 	top:0px;
 	left: 0px;
+	z-index: 99;
 	/*nav bar qualities*/
 }
 #heading h1{
 	position: relative;
-	left:780px;
+	left:580px;
 	top: 142px;
 	font-size: 120px;
 	/*title in the middle of page*/
 
 }
 #heading h3{
-	position: absolute;
-	left:320px;
-	top: 342px;
+	position: relative;
+	left:350px;
+	top: 45px;
 	font-size: 20px;
 	/*motto*/
 
@@ -79,7 +80,7 @@ body{
 #heading{
 	border: 1px solid #e2de5a;
 	width: 100vw;
-	height: 400px;
+	height: 401px;
 
 	background-color: #e2de5a;
 	background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
@@ -87,9 +88,9 @@ body{
 	color: white;
 
 
-	left: 0px;
-	position: absolute;
-	top: 92px;
+	left: -9px;
+	position: relative;
+	top: 33px;
 	font-family: 'Rokkitt', serif;
 	z-index: -1;
 
@@ -192,6 +193,7 @@ body{
 	width: 100vw;
 	height: 550px;
 	position: absolute;
+	z-index: -1;
 	/*background for images*/
 }
 #goal h2{
@@ -232,7 +234,7 @@ body{
 #shark img{
 	position: absolute;
 	left:930px;
-	top: 1050px;
+	top: 1090px;
 	position: absolute;
 	z-index: -1;
 	transition: 1s;
@@ -247,12 +249,15 @@ div.silosilo{
 	
     animation: move 5s linear infinite;
 	position: relative;
-	bottom: 0px;
+	bottom: -50px;
 	height: 50px;
+	
+	
     
 } /* The div where the fish is*/
 
 @keyframes move{
+	
     0%{
         transform:translate(2000px);
     }
@@ -264,12 +269,3 @@ div.silosilo{
         transform: translate(-500px);
     }
 }
-
-
-
-
-
-
-
-
-
