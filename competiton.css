@@ -5,6 +5,8 @@ body{
 	background-color: lightcoral;
 	background-image: linear-gradient(#ffdec6, #d7e3f7); 
 } /* This is where I edit the background and because the animation created an overflow on the x axis I had to hide it*/
+ 
+
 
 #menubar ul{
 	display:flex;
